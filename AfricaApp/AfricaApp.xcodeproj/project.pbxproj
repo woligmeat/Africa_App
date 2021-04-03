@@ -29,6 +29,11 @@
 		1F158A5A2618A09A00187E16 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A592618A09A00187E16 /* MapView.swift */; };
 		1F158A5D2618A0A800187E16 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A5C2618A0A800187E16 /* GalleryView.swift */; };
 		1F158A602618A0B500187E16 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A5F2618A0B500187E16 /* MainView.swift */; };
+		1F158A642618A5F200187E16 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A632618A5F200187E16 /* CoverImageView.swift */; };
+		1F158A692618A82800187E16 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A682618A82800187E16 /* CoverImageModel.swift */; };
+		1F158A6D2618A96F00187E16 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A6C2618A96F00187E16 /* CodableBundleExtension.swift */; };
+		1F158A712618ADDC00187E16 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A702618ADDC00187E16 /* AnimalListItemView.swift */; };
+		1F158A742618AF2800187E16 /* AnimalModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F158A732618AF2800187E16 /* AnimalModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +61,11 @@
 		1F158A592618A09A00187E16 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		1F158A5C2618A0A800187E16 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		1F158A5F2618A0B500187E16 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1F158A632618A5F200187E16 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		1F158A682618A82800187E16 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		1F158A6C2618A96F00187E16 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		1F158A702618ADDC00187E16 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		1F158A732618AF2800187E16 /* AnimalModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,9 @@
 		1F158A0626188BED00187E16 /* AfricaApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F158A6B2618A95800187E16 /* Extension */,
+				1F158A672618A81700187E16 /* Model */,
+				1F158A622618A5DC00187E16 /* View */,
 				1F158A4A26189EBB00187E16 /* Data */,
 				1F158A3426189E6E00187E16 /* Video */,
 				1F158A542618A04900187E16 /* App */,
@@ -145,6 +158,32 @@
 				1F158A5F2618A0B500187E16 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		1F158A622618A5DC00187E16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F158A632618A5F200187E16 /* CoverImageView.swift */,
+				1F158A702618ADDC00187E16 /* AnimalListItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F158A672618A81700187E16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F158A682618A82800187E16 /* CoverImageModel.swift */,
+				1F158A732618AF2800187E16 /* AnimalModal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F158A6B2618A95800187E16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F158A6C2618A96F00187E16 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F158A0A26188BED00187E16 /* ContentView.swift in Sources */,
+				1F158A712618ADDC00187E16 /* AnimalListItemView.swift in Sources */,
+				1F158A742618AF2800187E16 /* AnimalModal.swift in Sources */,
 				1F158A602618A0B500187E16 /* MainView.swift in Sources */,
+				1F158A642618A5F200187E16 /* CoverImageView.swift in Sources */,
+				1F158A692618A82800187E16 /* CoverImageModel.swift in Sources */,
 				1F158A5A2618A09A00187E16 /* MapView.swift in Sources */,
 				1F158A0826188BED00187E16 /* AfricaAppApp.swift in Sources */,
 				1F158A572618A08A00187E16 /* VideoListView.swift in Sources */,
 				1F158A5D2618A0A800187E16 /* GalleryView.swift in Sources */,
+				1F158A6D2618A96F00187E16 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
