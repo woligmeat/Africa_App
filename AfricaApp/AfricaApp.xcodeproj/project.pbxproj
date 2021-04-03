@@ -46,6 +46,7 @@
 		1F9423E02618F17D00CD0256 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9423DF2618F17D00CD0256 /* VideoPlayerHelper.swift */; };
 		1F9423E32618F58600CD0256 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9423E22618F58600CD0256 /* LocationModel.swift */; };
 		1F9423E62618F94C00CD0256 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9423E52618F94C00CD0256 /* MapAnnotationView.swift */; };
+		1F9423E92618FCE000CD0256 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9423E82618FCE000CD0256 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		1F9423DF2618F17D00CD0256 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		1F9423E22618F58600CD0256 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		1F9423E52618F94C00CD0256 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		1F9423E82618FCE000CD0256 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				1F9423D72618E8FC00CD0256 /* VideoListItemView.swift */,
 				1F9423DB2618F07400CD0256 /* VideoPlayerView.swift */,
 				1F9423E52618F94C00CD0256 /* MapAnnotationView.swift */,
+				1F9423E82618FCE000CD0256 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				1F158A7D2618B48C00187E16 /* InsetGalleryview.swift in Sources */,
 				1F9423D82618E8FC00CD0256 /* VideoListItemView.swift in Sources */,
 				1F158A6D2618A96F00187E16 /* CodableBundleExtension.swift in Sources */,
+				1F9423E92618FCE000CD0256 /* MotionAnimationView.swift in Sources */,
 				1F158A7A2618B3AC00187E16 /* HeadingView.swift in Sources */,
 				1F9423DC2618F07400CD0256 /* VideoPlayerView.swift in Sources */,
 			);
